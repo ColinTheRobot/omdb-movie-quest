@@ -14,7 +14,7 @@ function removePreviousSearch(attrs) {
     }
 }
 
-// This is our favorite function. If you look in the 
+// This is our favorite function. If you look on line 49 you can see where it's set
 function favorite(id) {
     var name = prompt("please enter your name", "your name");
     var title = document.getElementsByClassName('Title')[0].childNodes[1].innerHTML;
