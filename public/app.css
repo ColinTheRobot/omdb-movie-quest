@@ -1,0 +1,70 @@
+body {
+  margin: 0 auto;
+  width: 500px;
+  font-family: 'Helvetica',  'sans-serif';
+}
+
+p {
+  letter-spacing: 1px
+}
+
+.search-form {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.instructions {
+  font-size: 12px;
+  color: #C2BFBF;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-size: 12px;
+  color: #C2BFBF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.film-display {
+  width: 500px;
+  overflow: hidden;
+}
+
+.film-display a {
+  text-decoration: none;
+}
+
+.film-display ul {
+  max-width: 500px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.film-display ul li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.film-display ul li h3 {
+  display: inline-block;
+}
+
+.val {
+  padding-left: 15px;
+  color: red;
+}
+

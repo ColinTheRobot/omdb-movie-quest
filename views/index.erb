@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body>
+    <form method="get" class='search-form'>
+      <p>Search for a movie/tv show by title:</p>
+      <input id="movie-title" type="text" name="movie-title">
+      <input id="movie-search" type="submit" value="search" method="GET">
+    </form>
+
+    <div class="instructions">
+      <p>click film boxes to expand &nbsp;&nbsp;<span id="separator">—</span> &nbsp;&nbsp;click expanded to favorite</p>
+    </div>
+    <nav>
+      <a href="/">home</a>
+      <a href="/favorites">favorites</a>
+    </nav>
+
+    <div id="film-display" class="film-display">
+    </div>
+  </body>
+</html>

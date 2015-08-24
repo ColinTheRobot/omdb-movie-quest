@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="favorites.css">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <script type="text/javascript" src="app.js"></script>
+  <title>favorites</title>
+</head>
+<body>
+  <nav>
+    <a href="/">home</a>
+    <a href="/favorites">favorites</a>
+  </nav>
+  <div class="favorites">
+    <% @favorites["favorites"].each do |favorite| %>
+      <div class="favorite-film">
+        <h4>User: <%= favorite["name"] %></h4>
+        <p>title: <%= favorite["title"] %></p>
+        <p>oid: <%= favorite["oid"] %></p>
+      </div>
+    <% end %>
+  </div>
+</body>
+</html>
